@@ -1,0 +1,11 @@
+/* Thumb scroller */
+.verses::-webkit-scrollbar {
+  width: 10px;
+}
+.verses::-webkit-scrollbar-track {
+  background-color: #f8f8f8;
+  box-shadow: 0 0 80px #ddd inset;
+}
+.verses::-webkit-scrollbar-thumb {
+  background-color:var(--second-color);
+}
